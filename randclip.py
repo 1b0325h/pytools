@@ -5,7 +5,7 @@ import fire
 import pyperclip
 
 
-def randclip(n):
+def randclip(n=15):
     x = "".join(choices(ascii_letters+digits, k=n))
     pyperclip.copy(x)
     return f"'{x}' generated and copied to clipboard"
