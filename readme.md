@@ -16,9 +16,10 @@ pip install -e .
 
 file operation:
 
-| command                        | description                                                    |
-| ------------------------------ | -------------------------------------------------------------- |
-| [`randname`](docs/randname.md) | batch rename files in a specified directory to a random string |
+| command                        | description                                                       |
+| ------------------------------ | ----------------------------------------------------------------- |
+| [`randname`](docs/randname.md) | batch rename files in a specified directory to random string      |
+| [`renbname`](docs/renbname.md) | batch rename files in a specified directory to sequential numbers |
 
 utility:
 
