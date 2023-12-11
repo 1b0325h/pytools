@@ -2,14 +2,15 @@ from setuptools import setup
 
 setup(
     name="pytools",
-    version="0.1",
+    version="0.2",
     author="Melano",
     py_modules=[
         "randname",
-        "randclip"
+        "randclip",
+        "renbname",
     ],
     install_requires=[
-        # randname
+        # randname, renbname
         "colorama==0.4.3",
         "fire==0.4.0",
         # randclip
@@ -18,7 +19,8 @@ setup(
     entry_points={
         "console_scripts": [
             "randname = randname:main",
-            "randclip = randclip:main"
+            "randclip = randclip:main",
+            "renbname = renbname:main",
         ]
     }
 )

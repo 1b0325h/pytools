@@ -11,7 +11,7 @@ def randname(dst=None, n=30):
           "\nDo not use in wrong directory.",)
 
     if not dst:
-        dst = input("\nEnter the full path of the directory to randomized: ")
+        dst = input("\nEnter the full path of the directory to rename: ")
 
     # directory check
     if not os.path.isdir(dst):
