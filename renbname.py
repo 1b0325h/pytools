@@ -5,14 +5,14 @@ import fire
 
 
 def winsort(lst):
-    import ctypes
+    from ctypes import windll
     from functools import cmp_to_key
 
-    SHLWAPI = ctypes.windll.LoadLibrary("SHLWAPI.dll")
-    def strcmp(a, b):
-        return SHLWAPI.StrCmpLogicalW(a, b)
+    dll = windll.LoadLibrary("shlwapi.dll")
+    def cmpstr(a, b):
+        return dll.StrCmpLogicalW(a, b)
 
-    return sorted(lst, key=cmp_to_key(strcmp))
+    return sorted(lst, key=cmp_to_key(cmpstr))
 
 
 def renbname(dst=None):
