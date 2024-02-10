@@ -2,13 +2,14 @@ from setuptools import setup
 
 setup(
     name="pytools",
-    version="0.3",
+    version="0.4",
     author="Melano",
     py_modules=[
         "randname",
         "randclip",
         "renbname",
         "azw2cbz",
+        "folderzip",
     ],
     install_requires=[
         "fire==0.4.0",
@@ -25,6 +26,7 @@ setup(
             "randclip = randclip:main",
             "renbname = renbname:main",
             "azw2cbz = azw2cbz:main",
+            "folderzip = folderzip:main",
         ]
     }
 )

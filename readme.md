@@ -16,10 +16,11 @@ pip install -e .
 
 file operation:
 
-| command                   | description                                                       | docs                            |
-| ------------------------- | ----------------------------------------------------------------- | ------------------------------- |
-| [`randname`](randname.py) | batch rename files in a specified directory to random string      | [randname.md](docs/randname.md) |
-| [`renbname`](renbname.py) | batch rename files in a specified directory to sequential numbers | [renbname.md](docs/renbname.md) |
+| command                     | description                                                       | docs                              |
+| --------------------------- | ----------------------------------------------------------------- | --------------------------------- |
+| [`randname`](randname.py)   | batch rename files in a specified directory to random string      | [randname.md](docs/randname.md)   |
+| [`renbname`](renbname.py)   | batch rename files in a specified directory to sequential numbers | [renbname.md](docs/renbname.md)   |
+| [`folderzip`](folderzip.py) | zip each folders in the specified directory (except files!)       | [folderzip.md](docs/folderzip.md) |
 
 utility:
 
@@ -29,9 +30,9 @@ utility:
 
 converter:
 
-| command                 | description                                                | docs                       |
-| ----------------------- | ---------------------------------------------------------- | -------------------------- |
-| [`azw2cbz`](azw2cbz.py) | convert azw files consisting of fixed layouts to cbz files | [azw2cbz](docs/azw2cbz.md) |
+| command                 | description                                                | docs                          |
+| ----------------------- | ---------------------------------------------------------- | ----------------------------- |
+| [`azw2cbz`](azw2cbz.py) | convert azw files consisting of fixed layouts to cbz files | [azw2cbz.md](docs/azw2cbz.md) |
 
 
 </samp>
